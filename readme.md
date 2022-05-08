@@ -5,7 +5,7 @@ The factory allows you to create a staking contract and implement a liquidity mi
 
 Everyone can create a liquidity mining initiative program for ERC20 token. Participants - Stakers proportionally of share stake get rewards in ERC20 token while the program will not end.
 
-1. Create liquidity pool to [PlasmaSwap](https://apy.plasma.finance/liquidity-pools/add), Uniswap, SushiSwap. 
+1. Create liquidity pool to Uniswap, SushiSwap. 
 2. Customize the program time. 
 3. Configure contracts and deploy to Mainnet
 4. Create a request to publish a contract for PlasmaFinance by creating issue pull request. 
@@ -69,11 +69,3 @@ Fill in the address of the Staking Factory contract so that you can call the not
 - rewardAmount (uint256)
 
 Call Write and Sign TX
-
-### 5 step: Add StakingRewards contract to Plasma.Finance 
-Ask support to list your community incentive products on your token page on Plasma.Finance
-
-
-In-depth documentation on Staking Factory is available at [docs.plasma.finance](https://docs.plasma.finance)
-
-PlasmaDLT team is not responsible for the use of this code, use at your own risk.
